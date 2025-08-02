@@ -1,0 +1,132 @@
+{
+  "time_step": 10,
+  "grid_size": 1000,
+  "objects": [
+    {
+      "type": "wall",
+      "position": {
+        "x": 500,
+        "y": 10
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 20,
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "is_static": true
+    },
+    {
+      "type": "wall",
+      "position": {
+        "x": 500,
+        "y": 990
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 20,
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "is_static": true
+    },
+    {
+      "type": "wall",
+      "position": {
+        "x": 10,
+        "y": 500
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 20,
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "is_static": true
+    },
+    {
+      "type": "wall",
+      "position": {
+        "x": 990,
+        "y": 500
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 20,
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "is_static": true
+    },
+    {
+      "type": "center_block",
+      "position": {
+        "x": 500,
+        "y": 500
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 50,
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "is_static": true
+    },
+    {
+      "type": "red_block",
+      "position": {
+        "x": 91.41848604041542,
+        "y": 105.13396709781574
+      },
+      "velocity": {
+        "x": -0.8581513959584565,
+        "y": 0.5133967097815805
+      },
+      "size": 30,
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "is_static": false
+    },
+    {
+      "type": "blue_block",
+      "position": {
+        "x": 908.6389521220553,
+        "y": 905.036715818153
+      },
+      "velocity": {
+        "x": 0.8638952122055273,
+        "y": 0.5036715818153401
+      },
+      "size": 30,
+      "color": [
+        0,
+        0,
+        255
+      ],
+      "is_static": false
+    }
+  ]
+}
